@@ -11,7 +11,7 @@ public static void main(String[] args) {
 Immutable1 obj = new Immutable1("hello");
 System.out.println(obj.getName());
 //obj.setName("new hello");
-System.out.println(obj.getName());
+//System.out.println(obj.getName());
 }
 
 }

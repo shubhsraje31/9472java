@@ -20,4 +20,4 @@ System.out.println(obj.getName());
 
 /*Output:
 hello1
-new hello */
+new hello1 */

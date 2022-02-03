@@ -15,7 +15,7 @@ private int e_id;
 private String e_name;
 
 @ElementCollection
-private Set<Address> address=new HashSet<Address>();
+HashMap<Integer,Address> address= new HashMap<Integer,Address>();
 
 public int getE_id() {  
 	        return e_id;  
@@ -33,11 +33,13 @@ public int getE_id() {
 	        this.e_name = e_name;  
 	    }  
 	  
-    public Set<Address> getAddress() {  
+    public HashMap<Integer,Address> getAddress() {  
         return address;  
 	    }  
 	  
-	    public void setAddress(Set<Address> address) {  
+	    public void mapAddress(HashMap<Integer,Address> address) {  
 	        this.address = address;  
-	    } 
+	    }
+
+		
 }
